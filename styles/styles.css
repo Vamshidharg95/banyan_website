@@ -1,0 +1,198 @@
+.font-body{
+  font-weight: 200;
+}
+.myNavbar{
+  background-color: #fff;
+  background-image: none;
+}
+.myNavbar .container-fluid .navbar-header{
+  height: 70px;
+  padding-top: 10px;
+}
+.demo-btn{
+  width: 100px;
+  height: 40px;
+  background-color: #ee5636;
+  color: #fff;
+  font-size: 14px;
+}
+.demo-btn-li{
+  padding-left: 15px;
+  padding-top: 5px;
+}
+.main-container{
+  margin-top: 71px;
+}
+.orange-text{
+  color: #ee5636;
+}
+.header-logo{
+  width: 150px;
+}
+
+.index-intro{
+  width: 100%;
+  background-color: #f3f3f3;
+}
+.image-container{
+  width: 100%;
+  padding: 0px;
+}
+.index-intro .image-jumbotron{
+  padding: 80px 30px;
+  margin: 0px;
+  background-image: url('../images/background/bentley_bg.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #f2f2f2;
+  border-radius: 0px;
+}
+.index-intro .image-jumbotron h2{
+  font-size: 40px;
+  font-weight: 250;
+}
+.index-intro .image-jumbotron p{
+  font-size: 15px;
+}
+.common-btn{
+  padding: 15px 30px;
+  margin: 10px;
+  margin-left: 0px;
+  /*height: 70px;*/
+  font-size: 15px;
+  background-color: #ee5636;
+}
+.index-footer{
+  background-color: #444444;
+}
+.footer-items{
+  border: 1px solid #444444;
+  padding: 15px 0px;
+  text-align: center;
+  background-color: #444444;
+  color: #f2f2f2;
+}
+.span-divider{
+  border-left: 1px solid #f2f2f2;
+  margin: 10px;
+}
+.footer-details{
+  width: 100%;
+  margin: 0px;
+  background-color: #5b5b5b;
+  color: #f2f2f2;
+}
+.footer-details-row{
+  padding: 50px 50px;
+}
+.footer-details-columns ul{
+  list-style-type: none;
+  padding: 10px 0px;
+}
+.footer-details-columns ul li{
+  text-align: center;
+  color: #eae8e8;
+  padding: 5px 0px;
+  font-size: 15px;
+  font-weight: 200;
+}
+.footer-details-columns span{
+  padding: 10px 10px;
+}
+.footer-list-header{
+  font-size: 15px;
+  font-weight: 200;
+  color: #9b9b9b !important;
+}
+.footer-details-columns{
+  text-align: center;
+  margin: 10px 0px;
+}
+
+
+@media (min-width: 768px){
+  .myNavbar .container-fluid .navbar-header{
+    height: 100px;
+    padding-top: 30px;
+  }
+  .demo-btn-li{
+    padding-left: 0px;
+    padding-top: 5px;
+  }
+  .navbar-li{
+  }
+  .main-container{
+    margin-top: 102px;
+  }
+  .index-intro .image-jumbotron{
+    padding: 150px 40px;
+    margin: 0px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #f2f2f2;
+    border-radius: 0px;
+  }
+  .index-intro .image-jumbotron h2{
+    font-size: 50px;
+    font-weight: 250;
+  }
+  .index-intro .image-jumbotron p{
+    font-size: 25px;
+  }
+  .common-btn{
+    padding: 20px 60px;
+    margin: 10px;
+    margin-left: 0px;
+    /*height: 70px;*/
+    font-size: 20px;
+    background-color: #ee5636;
+  }
+  .index-footer{
+    width: 100%;
+    background-color: #444444;
+  }
+  .index-footer .footer-row{
+    height: 82px;
+    background-color: #444444;
+    justify-content: center;
+  }
+
+
+  .footer-details-row{
+    padding: 50px 70px;
+  }
+  .footer-details-columns{
+    text-align: left;
+    margin: 10px 0px;
+    padding-left: 4%;
+  }
+  .footer-details-columns ul li{
+    text-align: left;
+    font-size: 18px;
+    font-weight: 200;
+  }
+  .footer-list-header{
+    font-size: 18px !important;
+    font-weight: 200;
+  }
+  .footer-details-columns span{
+    padding: 10px 10px;
+  }
+
+
+
+  .footer-left-items{
+    text-align: left;
+    padding: 20px 5%;
+  }
+  .footer-right-items{
+    text-align: right;
+    padding: 20px 5%;
+  }
+  .footer-items{
+    margin-top: 10px;
+    border: 1px solid #444444;
+    background-color: #444444;
+    color: #f2f2f2;
+  }
+}
